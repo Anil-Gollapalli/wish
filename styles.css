@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #b84e44;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  .quote-carousel {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 60%;
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #b84e44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  button:hover {
+    background: #d9635f;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
